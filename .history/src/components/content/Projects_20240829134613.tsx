@@ -1,0 +1,284 @@
+export const ProjectsAndAchievementsContent = () => (
+	<div>
+		<div className='py-12'>
+			<div className='m-auto px-6 text-gray-600 xl:container md:px-12 xl:px-6'>
+				<div className='mb-12 space-y-2 text-center'>
+					<h2 className='text-3xl font-semibold text-primary-light md:text-4xl'>Some Past Projects</h2>
+					<p className='text-primary lg:mx-auto lg:w-6/12 '></p>
+				</div>
+
+				<h2 className='-px-2 pb-4 pt-6 text-2xl font-semibold text-violet-400 md:text-3xl'>Web Development Projects</h2>
+				<div className='grid gap-12 md:grid-cols-2 md:gap-6 lg:gap-12'>
+					<div className='group space-y-6'>
+						<a href='https://www.deckrenew.net' className='cursor-pointer'>
+							<img
+								src='deckrenew.webp'
+								alt='art cover'
+								loading='lazy'
+								width='1000'
+								height='667'
+								className='h-80 w-full rounded-3xl bg-white object-contain object-center transition-all duration-500 group-hover:rounded-xl'
+							/>
+						</a>
+						<h3 className='text-3xl font-semibold text-gray-800 dark:text-white'>Deck Renew</h3>
+						<p className='text-gray-600 dark:text-gray-300'>
+							Quick turnaround on website design and development for a new, local business. Currently maintained and
+							updated as needed.
+						</p>
+
+						<div className='flex gap-4'>
+							<a
+								href='#'
+								className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+								Tailwindcss
+							</a>
+							<a
+								href='#'
+								className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+								Vite
+							</a>
+						</div>
+					</div>
+
+					<div className='group space-y-6'>
+						<a href='https://www.grellcommercialroofing.com' className='cursor-pointer'>
+							<img
+								src='grell.webp'
+								alt='art cover'
+								loading='lazy'
+								width='1000'
+								height='667'
+								className='h-80 w-full rounded-3xl bg-white object-contain object-center transition-all duration-500 group-hover:rounded-xl'
+							/>
+						</a>
+						<h3 className='text-3xl font-semibold text-gray-800 dark:text-white'>Grell Roofing</h3>
+						<p className='text-gray-600 dark:text-gray-300'>
+							Developed and implemented a new logo and color scheme, an updated web and email domain, and a
+							user-friendly website using React and Tailwind. Not currently maintained.
+						</p>
+
+						<div className='flex gap-4'>
+							<a
+								href='#'
+								className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+								Tailwindcss
+							</a>
+							<a
+								href='#'
+								className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+								ReactJS
+							</a>
+						</div>
+					</div>
+					<div className='group space-y-6'>
+						<a href='https://www.neifb.org' className='cursor-pointer'>
+							<img
+								src='neifb.webp'
+								alt='art cover'
+								loading='lazy'
+								width='1000'
+								height='667'
+								className='h-80 w-full rounded-3xl bg-white object-contain object-center transition-all duration-500 group-hover:rounded-xl'
+							/>
+						</a>
+						<h3 className='text-3xl font-semibold text-gray-800 dark:text-white'>Northeast Iowa Food Bank</h3>
+						<p className='text-gray-600 dark:text-gray-300'>
+							Managed rebrand and website redesign, implemented website launch. Not currently maintained.
+						</p>
+
+						<div className='flex gap-4'>
+							<a
+								href='#'
+								className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+								HTML
+							</a>
+							<a
+								href='#'
+								className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+								CSS
+							</a>
+							<a
+								href='#'
+								className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+								JS
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div className='py-12'>
+			<div className='m-auto px-6 text-gray-600 xl:container md:px-12 xl:px-6'>
+				<h2 className='-px-2 pb-4 pt-6 text-2xl font-semibold text-violet-400 md:text-3xl'>Research & Writing</h2>
+				<div className='grid gap-12 md:grid-cols-2 md:gap-6 lg:gap-12'>
+					<div className='group space-y-6'>
+						<a
+							href='https://sites.google.com/view/asoj/digital-conditions-of-self?authuser=2'
+							className='cursor-pointer'>
+							<img
+								src='thesis.webp'
+								alt='art cover'
+								loading='lazy'
+								width='1000'
+								height='667'
+								className='h-80 w-full rounded-3xl object-contain object-center transition-all duration-500 group-hover:rounded-xl'
+							/>
+						</a>
+						<h3 className='text-3xl font-semibold text-gray-800 dark:text-white'>Research Publication</h3>
+						<p className='text-gray-600 dark:text-gray-300'>
+							Independent research and publications on topics such as algorithmic personalization and information
+							overload.
+						</p>
+					</div>
+
+					<div className='group space-y-6'>
+						<a href='https://www.neifb.org/news' className='cursor-pointer'>
+							<img
+								src='newsl.webp'
+								alt='art cover'
+								loading='lazy'
+								width='1000'
+								height='667'
+								className='h-80 w-full rounded-3xl bg-white object-contain object-center transition-all duration-500 group-hover:rounded-xl'
+							/>
+						</a>
+						<h3 className='text-3xl font-semibold text-gray-800 dark:text-white'>Newsletter Campaigns</h3>
+						<p className='text-gray-600 dark:text-gray-300'>
+							Developed and managed monthly and quarterly newsletter campaigns for various organizations.
+						</p>
+
+						<div className='flex gap-4'>
+							<a
+								href='#'
+								className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+								Adobe InDesign
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<div className='py-12'>
+			<div className='m-auto px-6 text-gray-600 xl:container md:px-12 xl:px-6'>
+				<h2 className='-px-2 pb-4 pt-6 text-2xl font-semibold text-violet-400 md:text-3xl'>Other Design</h2>
+				<div className='grid gap-12 md:grid-cols-2 md:gap-6 lg:gap-12'>
+					<div className='group space-y-6'>
+
+							<img
+							src='golfb.webp'
+								alt='art cover'
+								loading='lazy'
+								width='1000'
+								height='667'
+								className='h-80 w-full rounded-3xl object-contain object-center transition-all duration-500 group-hover:rounded-xl'
+							/>
+
+						<h3 className='text-3xl font-semibold text-gray-800 dark:text-white'>CAD / 3D Design</h3>
+						<p className='text-gray-600 dark:text-gray-300'>
+            From golf courses to project sites and homes, I have created a variety of content for various purposes.
+						</p>
+            <div className='flex gap-4'>
+							<a
+								href='#'
+								className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+								Blender
+							</a>
+							<a
+								href='#'
+								className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+								Adobe Substance
+							</a>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div className='py-12'>
+			<div className='m-auto px-6 text-gray-600 xl:container md:px-12 xl:px-6'>
+				<h2 className='-px-2 pb-4 pt-6 text-2xl font-semibold text-violet-400 md:text-3xl'>Marketing & Copywriting</h2>
+				<div className='grid gap-12 md:grid-cols-2 md:gap-6 lg:gap-12'>
+					<div className='group space-y-6'>
+
+							<img
+									src='email1.webp'
+								alt='art cover'
+								loading='lazy'
+								width='1000'
+								height='667'
+								className='h-80 w-full rounded-3xl object-contain object-center transition-all duration-500 group-hover:rounded-xl'
+							/>
+
+						<h3 className='text-3xl font-semibold text-gray-800 dark:text-white'>Email Marketing</h3>
+						<p className='text-gray-600 dark:text-gray-300'>
+            Pardot, MailChimp, and Constant Contact are just a few of the platforms I have used to develop and
+            manage email marketing campaigns.
+						</p>
+            <div className='flex gap-4'>
+									<a
+										href='#'
+										className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+										HTML/CSS
+									</a>
+									<a
+										href='#'
+										className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+										Segmentation
+									</a>
+								</div>
+					</div>
+
+					<div className='group space-y-6'>
+
+							<img
+									src='golfa.webp'
+								alt='art cover'
+								loading='lazy'
+								width='1000'
+								height='667'
+								className='h-80 w-full rounded-3xl object-contain object-center transition-all duration-500 group-hover:rounded-xl'
+							/>
+
+						<h3 className='text-3xl font-semibold text-gray-800 dark:text-white'>Social Media Marketing</h3>
+						<p className='text-gray-600 dark:text-gray-300'>
+            Implemented strategic, unified social media marketing campaigns for various organizations across all
+            major social media platforms.
+						</p>
+
+            <div className='flex gap-4'>
+									<a
+										href='#'
+										className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+										Adobe Illustrator
+									</a>
+									<a
+										href='#'
+										className='rounded-full border border-gray-100 px-3 py-1 text-sm font-medium text-primary transition duration-300 hover:border-transparent hover:bg-primary hover:text-white dark:border-gray-700 dark:text-gray-300'>
+										RADAAR
+									</a>
+								</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+);

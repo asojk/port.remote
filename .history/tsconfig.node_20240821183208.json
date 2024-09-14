@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "types": ["unplugin-icons/types/react"],
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true
+  },
+  "include": ["vite.config.ts"],
+  "exclude": ["node_modules"]
+}
